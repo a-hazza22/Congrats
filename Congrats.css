@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+ }
+ 
+ form {
+  margin-bottom: 20px;
+ }
+ 
+ input[type="date"] {
+  padding: 10px;
+  margin-right: 10px;
+ }
+ 
+ button {
+  padding: 10px 20px;
+ }
+ 
+ #error-message {
+  color: red;
+  margin-top: 10px;
+ }
+ 
+ #apod-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ 
+ #apod-info {
+  padding: 10px;
+  width: 50%;
+ }
+ 
+ #apod-title {
+  font-weight: bold;
+  }
+ 
+ #apod-image {
+  border-radius: 10px;
+  width: 386px;
+  height: 200px;
+ }
+ 
